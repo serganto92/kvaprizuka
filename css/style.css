@@ -1,7 +1,21 @@
 body,html {
-	padding: 0;
+	padding: 0 20px;
 	margin:0;
 	font-family: Roboto, sans-serif;
 	overflow-x: hidden;
 	min-width: 320px;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.intro {
+	width: 1280px;
+	height: 540px;
+	background-image: url(../img/Header-bg.jpg);
+	background-repeat: no-repeat;
 }
